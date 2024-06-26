@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 import pickle
 
 # Load the csv file
-df = pd.read_csv(r"C:\Users\DILSHAD RAZA\Desktop\AI IITK\project\new\New folder\Invistico_Airline.csv")
+df = pd.read_csv(r"Invistico_Airline.csv")
 
 # Drop rows with missing values
 df.dropna(inplace=True)
