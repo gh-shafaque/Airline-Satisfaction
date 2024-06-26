@@ -4,7 +4,7 @@ import pickle
 
 # Create flask app
 flask_app = Flask(__name__)
-model = pickle.load(open(r"C:\Users\DILSHAD RAZA\Desktop\AI IITK\project\new\New folder\model.pkl", "rb"))
+model = pickle.load(open(r"model.pkl", "rb"))
 
 @flask_app.route("/")
 def Home():
